@@ -1,0 +1,34 @@
+.main{
+    text-align:center;
+    border:groove 10px dodgerBlue;
+    border-radius:5rem;
+    margin-bottom:1cm;
+    text-decoration:underline;
+}
+input:hover{
+    background:linear-gradient(90deg, orange, yellowgreen,dodgerblue);
+    transition: all 0.5s ease-in-out; 
+}
+#longitude{
+    float:left;
+    margin-left:0.5cm;
+    text-decoration: underline;
+}
+#latitude{
+    float:left;
+    margin-left:0.5cm;
+    text-decoration: underline;
+}
+#accuracy{
+    float:left;
+    margin-left:0.5cm;
+    text-decoration: underline;
+    
+}
+#btn{
+    margin-bottom:0.75cm;
+}
+#error{    
+    text-align:center;
+    color:red;
+}

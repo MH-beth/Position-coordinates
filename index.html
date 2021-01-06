@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel='stylesheet' href='css/style.css'>
+    <link rel='shortcut icon' href='https://www.flaticon.com/svg/static/icons/svg/1510/1510355.svg'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Geolocate yourself</title>
+  </head>
+  <body>
+        <div class="main">
+            <h3 class='display-2'>Geolocate yourself</h3>
+            <br/>
+            <p class='h3' id='latitude'>Latitude :</p>
+            <br/><br/>
+            <p class='h3' id='longitude'>Longitude :</p>
+            <br/><br/>
+            <p class='h3' id='accuracy'>Accuracy:</p>
+            <br/><br/>
+            <p class='h3' id='error'></p>
+            <br/><br/>
+            <input onclick=loc() class='btn btn-primary' id='btn' type='button' value='Show My geolocation'>
+        </div>
+
+
+
+
+
+
+    <script src='js/main.js'></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+  </body>
+</html>
