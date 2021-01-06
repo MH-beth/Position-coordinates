@@ -20,4 +20,5 @@ function loc(){
         er.textContent = `ERROR(${err.code}): ${err.message}`
     }
     navigator.geolocation.getCurrentPosition(sucess, error, options);
+    console.warn('Your data is stored anywhere don\'t worry');
 }
