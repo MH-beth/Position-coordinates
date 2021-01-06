@@ -2,7 +2,7 @@
 This webpage allow you to have your position cordonates
 
 before instaling these are some information about this project:
-  - This project is secure way to have your position coordinates , your data is not stored nowhere;
+  - This project is a secure way to have your position coordinates , your data is not stored nowhere;
   - This project is made by MH15O and can be downloaded for free , but you can't make profite from it or use it in any comercial way;
   
   
